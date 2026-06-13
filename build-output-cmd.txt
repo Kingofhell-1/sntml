@@ -1,0 +1,37 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Java: 17.0.19, JVM: 17.0.19+10 (Eclipse Adoptium), Arch: amd64
+
+> Task :clean
+
+> Task :compileJava
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\entity\ModEntities.java:22: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                            .build(new ResourceLocation(SNTMLMod.MOD_ID, "observer").toString()));
+                                   ^
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\entity\ModEntities.java:29: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                            .build(new ResourceLocation(SNTMLMod.MOD_ID, "pursuer").toString()));
+                                   ^
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\entity\ObserverEntity.java:34: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                new ResourceLocation("sntml", "void_dimension")
+                ^
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\SNTMLMod.java:22: warning: [removal] get() in FMLJavaModLoadingContext has been deprecated and marked for removal
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+                                                        ^
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\world\CampPiece.java:64: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+        ResourceLocation rl = new ResourceLocation("sntml", "camp");
+                              ^
+C:\Users\Kingofhell\Desktop\sntml\src\main\java\com\sntml\world\MonumentPiece.java:65: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+        ResourceLocation rl = new ResourceLocation("sntml", "monument");
+                              ^
+6 warnings
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 29s
+2 actionable tasks: 2 executed

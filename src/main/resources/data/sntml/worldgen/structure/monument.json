@@ -1,0 +1,6 @@
+{
+  "type": "sntml:monument",
+  "biomes": "#sntml:has_structure",
+  "step": "surface_structures",
+  "spawn_overrides": {}
+}
