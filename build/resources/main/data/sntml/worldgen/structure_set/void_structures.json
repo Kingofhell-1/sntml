@@ -1,0 +1,12 @@
+{
+  "structures": [
+    { "structure": "sntml:monolith", "weight": 1 },
+    { "structure": "sntml:camp", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 6,
+    "salt": 123456789
+  }
+}

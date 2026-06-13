@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "sntml:block/vhs_player" }
+  }
+}

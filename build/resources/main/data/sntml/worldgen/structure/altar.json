@@ -1,0 +1,6 @@
+{
+  "type": "sntml:altar",
+  "biomes": "#sntml:has_altar",
+  "step": "surface_structures",
+  "spawn_overrides": {}
+}

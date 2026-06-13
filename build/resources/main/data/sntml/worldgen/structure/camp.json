@@ -1,0 +1,6 @@
+{
+  "type": "sntml:camp",
+  "biomes": "#sntml:has_void_structures",
+  "step": "surface_structures",
+  "spawn_overrides": {}
+}

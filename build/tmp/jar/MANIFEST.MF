@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: sntml
+Specification-Vendor: Kiritochara
+Specification-Version: 1
+Implementation-Title: sntml
+Implementation-Version: 
+Implementation-Vendor: Kiritochara
+Implementation-Timestamp: 2026-06-13T08:49:12+0300
+

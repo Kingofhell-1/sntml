@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="sntml"
+version="1.0.0"
+displayName="SNTML.files"
+logoFile="sntml.png"
+description='''
+An archive of odd files found in the depths.
+Further investigation: Canceled
+'''
+
+[[dependencies.sntml]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sntml]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
